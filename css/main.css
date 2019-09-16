@@ -3,6 +3,8 @@ body {
   color: #000000;
   font-size: 18px;
   line-height: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
 }
 
 .header {
@@ -15,6 +17,42 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__join {
+  height: 90px;
+  width: 320px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #B78C6C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.burger {
+  height: 90px;
+  width: 90px;
+  background: #1A1A1A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nav__list {
@@ -22,5 +60,22 @@ body {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+}
+
+.search {
+  height: 90px;
+  width: 220px;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
