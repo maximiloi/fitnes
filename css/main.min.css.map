@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,IAAI,AAAC,CACH,UAAU,CAAE,GAAG,CACf,KAAK,CDDC,IAAO,CCEb,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CAAG,ACJtB,AAAA,OAAO,AAAC,CACN,MAAM,CAAE,IAAI,CACZ,gBAAgB,CFDV,IAAO,CEEb,KAAK,CFDM,OAAO,CEElB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAAG,ACLnC,AAAA,UAAU,AAAC,CACT,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,IAAI,CAAG",
+    "sources": [
+        "../sass/main.sass",
+        "../sass/_colors.sass",
+        "../sass/_body.sass",
+        "../sass/block/_header.sass",
+        "../sass/block/_nav.sass"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
