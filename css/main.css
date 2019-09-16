@@ -7,6 +7,20 @@ body {
   font-weight: 600;
 }
 
+.page {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 0px;
+          flex: 0 1 0;
+}
+
 .header {
   height: 90px;
   background-color: #000000;
@@ -22,11 +36,18 @@ body {
           align-items: center;
 }
 
+.header__logo {
+  margin-left: 30px;
+  font-size: 24px;
+  opacity: .5;
+}
+
 .header__join {
   height: 90px;
   width: 320px;
   color: #ffffff;
   font-size: 14px;
+  text-transform: uppercase;
   font-weight: 700;
   background-color: #B78C6C;
   display: -webkit-box;
@@ -38,6 +59,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__nav {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .burger {
@@ -55,17 +82,43 @@ body {
           justify-content: center;
 }
 
+.nav {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  margin-right: 40px;
+  opacity: .5;
+}
+
+.nav__item--active {
+  font-weight: 600;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .search {
   height: 90px;
   width: 220px;
+  margin-left: 40px;
   color: #ffffff;
+  opacity: .5;
   font-size: 14px;
   background-color: #262626;
   display: -webkit-box;
@@ -77,5 +130,28 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about {
+  width: 520px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 320px;
 }
 /*# sourceMappingURL=main.css.map */
