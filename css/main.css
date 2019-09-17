@@ -44,7 +44,7 @@ body {
 
 .header__join {
   height: 90px;
-  width: 320px;
+  min-width: 320px;
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
@@ -145,7 +145,74 @@ body {
 }
 
 .about {
-  width: 520px;
+  color: #666666;
+  min-width: 520px;
+  border: 20px solid #F2F2F2;
+}
+
+.about__title {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.about__text {
+  color: #999999;
+  font-weight: 400;
+  margin-left: 70px;
+  margin-right: 110px;
+}
+
+.about__more {
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 70px;
+  color: #999999;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.gallery {
+  width: 580px;
+  background-image: url(/images/cardio.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.advantage {
+  min-width: 320px;
+  color: #ffffff;
+}
+
+.advantage__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantage__item {
+  margin: 0;
+}
+
+.advantage__item--pool {
+  height: 90px;
+  background-image: url(/images/pool.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.advantage__item--gym {
+  height: 90px;
+  background-color: #000000;
+}
+
+.advantage__item--proff {
+  height: 272px;
+  background-image: url(/images/proff.png);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .footer {

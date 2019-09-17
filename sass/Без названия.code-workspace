@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "/Users/iloi/Work/fitnes"
+    },
+    {
+      "path": "/Users/iloi/Work/yoga"
+    },
+    {
+      "path": "/Users/iloi/Work/js2"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "fitnes"
+  }
+}
