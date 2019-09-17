@@ -5,6 +5,8 @@
     list-style: none
     margin: 0
     padding: 0
+    display: flex
+    flex-direction: column
   &__item
     margin: 0
     &--pool
@@ -16,7 +18,8 @@
       height: 90px
       background-color: $black
     &--proff
-      height: 272px
+      flex: 1 1 auto
+      //min-height: 272px
       background-image: url(/images/proff.png)
       background-size: cover
       background-position: 50% 50%
