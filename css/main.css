@@ -187,6 +187,7 @@ body {
 }
 
 .advantage__list {
+  height: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -201,6 +202,12 @@ body {
 
 .advantage__item {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .advantage__item--pool {
@@ -224,10 +231,77 @@ body {
   background-position: 50% 50%;
 }
 
+.advantage__link {
+  margin-left: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 320px;
+}
+
+.social {
+  width: 90px;
+}
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+  background-color: #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.halls {
+  background-image: url(/images/rooms.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.halls__title {
+  color: #ffffff;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.price {
+  width: 360px;
+  background-color: blue;
+}
+
+.instagram__block {
+  width: 220px;
+}
+
+.map {
+  width: 320px;
+  height: 100%;
+  background-color: grey;
 }
 /*# sourceMappingURL=main.css.map */

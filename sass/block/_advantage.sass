@@ -2,6 +2,7 @@
   min-width: 320px
   color: $white
   &__list 
+    height: 100%
     list-style: none
     margin: 0
     padding: 0
@@ -9,6 +10,8 @@
     flex-direction: column
   &__item
     margin: 0
+    display: flex
+    align-items: center
     &--pool
       height: 90px
       background-image: url(/images/pool.png)
@@ -19,7 +22,11 @@
       background-color: $black
     &--proff
       flex: 1 1 auto
-      //min-height: 272px
       background-image: url(/images/proff.png)
       background-size: cover
       background-position: 50% 50%
+  &__link
+    margin-left: 40px
+    font-weight: 400
+    color: $white
+    text-decoration: none
