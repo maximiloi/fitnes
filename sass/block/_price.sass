@@ -1,3 +1,36 @@
 .price
   width: 360px
-  background-color: blue
+  background-color: $black
+  &__list
+    list-style: none
+    margin: 0
+    padding: 0
+    height: 100%
+    color: $white
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__cards
+    list-style: none
+    min-height: 80px
+    margin: 0
+    padding: 0
+    display: flex
+    justify-content: space-around
+    align-items: center
+    &--bronze
+      background-color: #5800FC;
+    &--silver
+      background-color: #5000E5;
+    &--gold
+      background-color: #4402BF;
+    &--diamond
+      background-color: #B78C6C;
+  &__card-item
+    &:first-child
+      width: 100px
+    &:nth-child(2)
+      width: 85px
+    // &:nth-child(3)
+    //   width: 50px
+

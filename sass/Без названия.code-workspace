@@ -4,13 +4,16 @@
       "path": "/Users/iloi/Work/fitnes"
     },
     {
-      "path": "/Users/iloi/Work/yoga"
+      "path": "/Users/iloi/Work/js2"
     },
     {
-      "path": "/Users/iloi/Work/js2"
+      "path": "/Users/iloi/Work/demo-site"
+    },
+    {
+      "path": "/Applications/MAMP/htdocs/booking"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "fitnes"
+    "liveServer.settings.multiRootWorkspaceName": "js2"
   }
 }

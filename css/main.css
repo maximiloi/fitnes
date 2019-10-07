@@ -175,7 +175,7 @@ body {
 }
 
 .gallery {
-  width: 580px;
+  min-width: 580px;
   background-image: url(/images/cardio.png);
   background-size: cover;
   background-position: 50% 50%;
@@ -292,11 +292,82 @@ body {
 
 .price {
   width: 360px;
-  background-color: blue;
+  background-color: #000000;
+}
+
+.price__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price__cards {
+  list-style: none;
+  min-height: 80px;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price__cards--bronze {
+  background-color: #5800FC;
+}
+
+.price__cards--silver {
+  background-color: #5000E5;
+}
+
+.price__cards--gold {
+  background-color: #4402BF;
+}
+
+.price__cards--diamond {
+  background-color: #B78C6C;
+}
+
+.price__card-item:first-child {
+  width: 100px;
+}
+
+.price__card-item:nth-child(2) {
+  width: 85px;
+}
+
+.instagram {
+  background-color: #000000;
 }
 
 .instagram__block {
   width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.instagram__block-images {
+  width: 110px;
+  height: 110px;
 }
 
 .map {
