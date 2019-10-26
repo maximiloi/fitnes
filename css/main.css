@@ -365,6 +365,19 @@ body {
   background-color: #000000;
 }
 
+.instagram__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.instagram__logo-svg {
+  height: 100px;
+}
+
 .instagram__block {
   width: 220px;
   display: -webkit-box;
