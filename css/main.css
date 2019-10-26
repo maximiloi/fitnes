@@ -1,8 +1,6 @@
 body {
-  max-height: 1hv;
-  color: #000000;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.2rem;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
 }
@@ -145,16 +143,21 @@ body {
 }
 
 .about {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   color: #666666;
-  min-width: 520px;
   border: 20px solid #F2F2F2;
 }
 
 .about__title {
-  font-size: 48px;
-  line-height: 80px;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  line-height: 3rem;
   font-weight: 600;
-  margin-top: 70px;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
   margin-left: 70px;
 }
 
@@ -167,7 +170,8 @@ body {
 
 .about__more {
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 1rem;
+  margin-bottom: 70px;
   margin-left: 70px;
   color: #999999;
   text-transform: uppercase;
@@ -175,7 +179,9 @@ body {
 }
 
 .gallery {
-  min-width: 580px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   background-image: url(/images/cardio.png);
   background-size: cover;
   background-position: 50% 50%;
@@ -282,12 +288,15 @@ body {
   display: flex;
   -ms-flex-line-pack: end;
       align-content: flex-end;
+  position: relative;
 }
 
 .halls__title {
+  position: absolute;
   color: #ffffff;
-  margin-left: 40px;
-  margin-bottom: 30px;
+  font-size: 30px;
+  bottom: 30px;
+  left: 40px;
 }
 
 .price {
