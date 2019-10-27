@@ -189,6 +189,28 @@ body {
   background-position: 50% 50%;
 }
 
+.gallery__caption {
+  position: relative;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+
+.gallery__caption::before {
+  position: relative;
+  display: block;
+  content: '';
+  background-color: #000000;
+  opacity: .4;
+  height: 110px;
+}
+
+.gallery__caption-text {
+  position: relative;
+  margin-top: -65px;
+  z-index: 2;
+}
+
 .gallery__title {
   position: absolute;
   left: 70px;

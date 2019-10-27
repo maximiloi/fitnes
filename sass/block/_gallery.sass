@@ -5,6 +5,22 @@
   background-image: url(/images/cardio.png)
   background-size: cover
   background-position: 50% 50%
+  &__caption
+    position: relative
+    text-align: center
+    font-size: 1.2rem
+    line-height: 1.3rem
+    &::before
+      position: relative
+      display: block
+      content: ''
+      background-color: $black
+      opacity: .4
+      height: 110px
+    &-text
+      position: relative
+      margin-top: -65px
+      z-index: 2
   &__title
     position: absolute
     left: 70px
