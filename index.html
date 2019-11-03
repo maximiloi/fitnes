@@ -8,6 +8,8 @@
   <title>Фитнес - центр</title>
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/hamburgers.css">
@@ -29,14 +31,17 @@
       <div class="header__logo">Фитнес-клуб</div>
       <nav class="header__nav  nav">
         <ul class="nav__list">
-          <li class="nav__item nav__item--active">Домой</li>
-          <li class="nav__item">О нас</li>
-          <li class="nav__item">Услуги</li>
-          <li class="nav__item">Галерея</li>
-          <li class="nav__item">Контакты</li>
+          <li class="nav__item"><a class="nav__link  nav__link--active">Домой</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Галерея</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
         </ul>
       </nav>
-      <div class="header__search  search">Поиск</div>
+      <div class="header__search  search">
+        <i class="fas fa-search  search__icon"></i>
+        <input type="text" name="" id="" class="search__input" placeholder="Поиск">
+      </div>
       <div class="header__join">Вступить в клуб</div>
     </header>
 

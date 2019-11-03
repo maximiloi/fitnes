@@ -1,11 +1,16 @@
 .search
-  height: 90px
-  width: 220px
-  margin-left: 40px
-  color: $white
-  opacity: .5
+  position: relative
   font-size: 14px
-  background-color: $bg-search
-  display: flex
-  justify-content: center
-  align-items: center
+  &__input
+    height: 90px
+    width: 220px
+    border: none
+    background-color: $bg-search
+    color: $white
+    padding: 0 40px 0 50px
+    &::placeholder
+      margin-left: 20px
+  &__icon
+    position: absolute
+    top: calc(50% - 7px)
+    margin-left: 30px
