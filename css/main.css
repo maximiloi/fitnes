@@ -269,6 +269,7 @@ body {
 }
 
 .advantage {
+  position: relative;
   min-width: 320px;
   color: #ffffff;
 }
@@ -316,6 +317,21 @@ body {
   background-image: url(/images/proff.png);
   background-size: cover;
   background-position: 50% 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.advantage__arrow {
+  position: absolute;
+  font-size: 30px;
+  right: 40px;
 }
 
 .advantage__link {
@@ -323,6 +339,13 @@ body {
   font-weight: 400;
   color: #ffffff;
   text-decoration: none;
+}
+
+.advantage__link--proff {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 15px 29px;
+  background: #00B1FF;
 }
 
 .footer {

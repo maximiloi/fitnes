@@ -1,4 +1,5 @@
 .advantage
+  position: relative
   min-width: 320px
   color: $white
   &__list 
@@ -25,9 +26,21 @@
       background-image: url(/images/proff.png)
       background-size: cover
       background-position: 50% 50%
+      display: flex
+      justify-content: center
+      align-items: flex-end
+  &__arrow
+    position: absolute
+    font-size: 30px
+    right: 40px
   &__link
     margin-left: 40px
     font-weight: 400
     color: $white
     text-decoration: none
+    &--proff
+      margin: 0
+      margin-bottom: 60px
+      padding: 15px 29px
+      background: $btn-blue
 
