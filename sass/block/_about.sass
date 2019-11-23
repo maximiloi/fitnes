@@ -1,7 +1,12 @@
 .about
-  flex: 1;
+  display: flex
+  justify-content: space-around
   color: $text-title
   border: 20px solid $br-grey
+  &__wrapper
+    display: flex
+    flex-direction: column
+    width: 80%
   &__title
     margin: 0
     padding: 0
@@ -10,17 +15,16 @@
     font-weight: 600
     margin-top: 4rem
     margin-bottom: 3rem
-    margin-left: 70px
   &__text
     color: $text-about
     font-weight: 400
-    margin-left: 70px
-    margin-right: 110px
   &__more
+    flex: 1
+    align-content: flex-end
+    height: 100%
     font-weight: 400
     margin-top: 1rem
-    margin-bottom: 70px
-    margin-left: 70px
+    margin-bottom: 1rem
     color: $text-about
     text-transform: uppercase
     text-decoration: none

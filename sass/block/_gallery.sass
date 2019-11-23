@@ -1,4 +1,6 @@
 .gallery
+  display: flex
+  justify-content: space-around
   position: relative
   flex: 1;
   color: $white
@@ -22,16 +24,18 @@
       margin-top: -65px
       z-index: 2
   &__title
-    position: absolute
-    left: 70px
-    bottom: 46px
+    width: 100%
+    align-self: flex-end
+    justify-content: space-around
+    display: flex
     font-size: 1.6rem
-    line-height: 1.8rem
+    line-height: 1.6rem
+    margin-bottom: 40px
+  &__text
+    align-self: flex-end
+    margin: 0
+    padding: 0
   &__counter
-    //font: @oswaldSemiLight
-    position: absolute
-    right: 70px
-    bottom: 44px
     font-size: 4rem
     line-height: 4.1rem
     font-weight: 100
